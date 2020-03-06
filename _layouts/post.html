@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/javascript" src="/assets/js/disqus.js"></script>
+
+<div class="w3-container w3-card w3-white w3-margin-bottom" id="about" style="margin-top:75px">
+  <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-coffee fa-fw
+      w3-margin-right w3-xxlarge w3-text-teal"></i>{{ page.title }}</h2>
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+  <div id="disqus_thread"></div>
+</div>

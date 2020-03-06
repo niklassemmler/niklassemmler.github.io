@@ -1,0 +1,17 @@
+---
+layout: default
+title: Yesterday's Jam
+---
+<div class="w3-container w3-card w3-white w3-margin-bottom" id="about" style="margin-top:75px">
+  <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-coffee fa-fw
+      w3-margin-right w3-xxlarge w3-text-teal"></i>Blog: Yesterday's Jam</h2>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <!--<p>{{ post.excerpt }}</p>-->
+    </li>
+  {% endfor %}
+</ul>
+</div>

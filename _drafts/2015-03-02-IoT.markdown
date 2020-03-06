@@ -1,0 +1,38 @@
+---
+layout: post
+title: 2015-03-02-Using-flink-streaming 
+date: 2015-03-02
+categories: flink data-stream-mining
+---
+
+The buzzword IoT lives of the following vision: There will soon come a day, where massive
+deployment of sensors will generate an even larger amount of data than what the internet
+of humans produces right now, at---that is the crux---high velocity. On top of this data a
+large number of value creating services can be provisioned, if a common infrastructure
+allows the access on this data.
+
+For research IoT is treasure box full of problems glowing in different colors. From
+development in the field of embedded systems, to make the next generation of sensors ever
+longer lasting and more powerful, up to research in the field of large data systems, to
+process larger chunks of data with more elaborate schemes than map-reduce. Interest into
+this fields has already led to the creation of several start-ups.
+
+Different to the above topics, the question how the network will deal with this
+increasing load of data has not received much attention. Early IoT solutions are still
+using amounts of data that can easily be transferred over todays infrastructure. But
+obviously it is far more easy to increase the deployment of sensors, than to overhaul the
+network backbone. The only solution I see at this point is, data aggregation at the
+network level. By extending the data process logic from the data center down to the
+origin of the data, can the amount of data be reduced and quality of the data improved
+before it even hits the data center.
+
+The question is, where can this be realized. On which level and in what device?
+Middleboxes, Routers or intermediate nodes?
+
+How can this be kept traceable?
+
+And how can it be integrated with todays infrastructure?
+
+Clean slate industry 4.0 factories.
+
+

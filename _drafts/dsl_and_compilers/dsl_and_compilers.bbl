@@ -1,0 +1,61 @@
+\begin{thebibliography}{10}
+
+\bibitem{aho2007compiler}
+Alfred Aho, Monica Lam, Ravi Sethi, and JD~Ullman.
+\newblock {\em Compilers: Principles, Techniques, and Tools}.
+\newblock Addison-Wesley, 2 edition, 2007.
+
+\bibitem{website:ply}
+David Beazley.
+\newblock Ply (python lex-yacc).
+\newblock \url{http://www.dabeaz.com/ply/}, July 2014.
+
+\bibitem{Beazley2013python}
+David Beazley and Brian~K. Jones.
+\newblock {\em Python Cookbook}.
+\newblock " O'Reilly Media, Inc.", 3 edition, 2013.
+
+\bibitem{website:dsl}
+Martin Fowler.
+\newblock Domainspecificlanguage.
+\newblock \url{http://www.martinfowler.com/bliki/DomainSpecificLanguage.html},
+  August 2014.
+
+\bibitem{website:llvslr}
+Lars~Marius Garshol.
+\newblock Bnf and ebnf: What are they and how do they work?
+\newblock \url{http://www.garshol.priv.no/download/text/bnf.html}, July 2014.
+
+\bibitem{kosar2008preliminary}
+Toma{\v{z}} Kosar, Pablo~A Barrientos, Marjan Mernik, et~al.
+\newblock A preliminary study on various implementation approaches of
+  domain-specific language.
+\newblock {\em Information and Software Technology}, 50(5):390--405, 2008.
+
+\bibitem{mernik2005and}
+Marjan Mernik, Jan Heering, and Anthony~M Sloane.
+\newblock When and how to develop domain-specific languages.
+\newblock {\em ACM computing surveys (CSUR)}, 37(4):316--344, 2005.
+
+\bibitem{parr2009language}
+Terence Parr.
+\newblock {\em Language implementation patterns: create your own
+  domain-specific and general programming languages}.
+\newblock Pragmatic Bookshelf, 2009.
+
+\bibitem{standard1996ebnf}
+EBNF Syntaxt~Specification Standard.
+\newblock Ebnf: Iso/iec 14977: 1996 (e).
+\newblock {\em URL http://www. cl. cam. ac. uk/mgk25/iso-14977. pdf}, 1996.
+
+\bibitem{van2000domain}
+Arie Van~Deursen, Paul Klint, and Joost Visser.
+\newblock Domain-specific languages: An annotated bibliography.
+\newblock {\em Sigplan Notices}, 35(6):26--36, 2000.
+
+\bibitem{website:pyparser}
+wiki.
+\newblock python language parsing.
+\newblock \url{https://wiki.python.org/moin/LanguageParsing}, July 2014.
+
+\end{thebibliography}

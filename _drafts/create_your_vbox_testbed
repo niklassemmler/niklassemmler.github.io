@@ -1,0 +1,4 @@
+
+Remember to set the time to UTC
+Delete /etc/udev/rules.d/70-persistent-net.rules otherwise your network
+interface will be renamed

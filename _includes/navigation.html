@@ -1,0 +1,64 @@
+<!-- Navigation Bar -->
+<nav class="w3-sidebar w3-collapse w3-white w3-card w3-text-grey w3-top w3-animate-left" style="z-index:3;width:200px;overflow: hidden;" id="mySidebar"><br>
+  <div class="w3-container">
+      <img src="/assets/pictures/profile.png"
+      style="width:80%;" class="w3-round"><br><br>
+      <div class="w3-container w3-text-black">
+        <h2>Niklas Semmler</h2>
+      </div>
+    <!--<p class="w3-text-grey">PhD Candidate</p>-->
+    <div class="w3-panel w3-large">
+      <a class="" href="http://linkedin.com/in/nsemmler" style="text-decoration: none">
+        <i class="fa fa-linkedin w3-hover-white">&nbsp;&nbsp;</i>
+      </a>
+      <a class="" href="http://github.com/metaswirl" style="text-decoration: none">
+        <i class="fa fa-github w3-hover-white">&nbsp;&nbsp;</i>
+      </a>
+      <a class="" href="mailto:niklas.semmler@mailbox.org"
+        style="text-decoration: none">
+        <i class="fa fa-at w3-hover-white"></i>
+      </a>
+    </div>
+  </div>
+  <div class="w3-bar-block">
+    <a href="/index.html#about" onclick="w3_close()"
+      class="w3-bar-item w3-button w3-padding w3-hover-white">
+      <i class="fa fa-th-large fa-fw w3-margin-right"></i>About</a> 
+    <a href="/index.html#research" onclick="w3_close()"
+      class="w3-bar-item w3-button w3-padding w3-hover-white">
+      <i class="fa fa-flask fa-fw w3-margin-right"></i>Research</a> 
+    <a href="/index.html#cv" onclick="w3_close()"
+      class="w3-bar-item w3-button w3-padding w3-hover-white">
+      <i class="fa fa-user fa-fw w3-margin-right"></i>CV</a> 
+    <a href="/blog.html" onclick="w3_close()"
+      class="w3-bar-item w3-button w3-padding w3-hover-white">
+      <i class="fa fa-coffee fa-fw w3-margin-right"></i>Blog</a> 
+    <a href="/assets/files/nsemmler.vcf"
+      class="w3-bar-item w3-button w3-padding w3-hover-white">
+      <i class="fa fa-envelope fa-fw w3-margin-right"></i>VCARD</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Niklas Semmler</span>
+  <div class="w3-right">
+    <a class="" href="http://linkedin.com/in/nsemmler" style="text-decoration: none">
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </a>
+    <a class="" href="http://github.com/metaswirl" style="text-decoration: none">
+      <i class="fa fa-github w3-hover-opacity"></i>
+    </a>
+    <a class="" href="mailto:niklas.semmler@mailbox.org"
+      style="text-decoration: none">
+      <i class="fa fa-at w3-hover-opacity"></i>
+    </a>
+    <!--<img src="https://www.net.t-labs.tu-berlin.de/~nsemmler/pics/pic2.png"
+      style="width:5%;" class="w3-circle">-->
+  </div>
+
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
