@@ -1,4 +1,9 @@
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+body { max-width:1200px }
+w3-main { 
+  margin-left:220px;
+  margin-right:40px;
+}
 .pub { margin: 1em 0; }
 
 .auto-resizable-iframe {
