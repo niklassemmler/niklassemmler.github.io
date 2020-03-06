@@ -1,2 +1,5 @@
 _site
-_trash
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
